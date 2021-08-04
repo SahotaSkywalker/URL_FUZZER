@@ -12,7 +12,8 @@ for a in line:
     r = requests.get(url+slsh+b)
     if r.status_code !=404:
         print(url+slsh+b+"--"+str(r.status_code),end="\n")
-    
+ 
+## BY SahotaSkywalker
 
 
 
