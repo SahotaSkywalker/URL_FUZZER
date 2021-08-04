@@ -1,8 +1,7 @@
 import requests
 from requests import status_codes
-import time
-url = input("Pls input your url here:")
-wordlists = input("input wordlist here:")
+url = input("Pls input the url you want to fuzz here:")
+wordlists = input("input the path to wordlist here:")
 slsh =  '/'
 word = open(wordlists,"r")
 line = word.readlines()
